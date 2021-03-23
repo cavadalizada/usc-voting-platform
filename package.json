@@ -1,0 +1,27 @@
+{
+  "name": "usc-voting-system",
+  "version": "1.0.0",
+  "description": "voting platform for usc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js --ext js,pug"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.5",
+    "express-slow-down": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.6",
+    "pug": "^3.0.0"
+  }
+}

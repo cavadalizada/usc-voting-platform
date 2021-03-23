@@ -1,0 +1,62 @@
+doctype html
+//
+  Ethereal by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+head
+  title USC-voting-platform
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, user-scalable=no')
+  link(rel='stylesheet' href='assets/css/main.css')
+  noscript
+    link(rel='stylesheet' href='assets/css/noscript.css')
+
+header#navbar
+  h2 USC-Voting-platform
+  nav.links
+    ul
+      li
+        a(class='president',href='/homeRep') Representatives
+      li
+        a(class='repr',href='/homePre') President/VP
+  nav.main
+    ul
+      li
+        p &nbsp;&nbsp;!{Name} !{Surname}&nbsp;&nbsp;
+      li
+        a(id="logout",href='/api/logout') Logout &nbsp;&nbsp;
+// Page Wrapper
+#page-wrapper
+  // Wrapper
+  #wrapper
+    // Panel (Banner)
+    section.panel.banner.left
+      .gallery
+        .group.span-1-5
+          a.image.filtered.span-1-5(href='images/laman.jpg' data-position='bottom')
+            img(src='images/laman.jpg' alt='')
+          a.image.filtered.span-1-5(href='images/rishad.jpg' data-position='center')
+            img(src='images/rishad.jpg' alt='')
+      .content.color1.span-3-75
+        h2
+          | Laman Jalilova
+        h3 
+          | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;
+        h2.major
+          | Rishad Akhundov
+        h3 President &amp; Vice-president
+        p(id='smallerP')
+          | We, CE-018 student Laman Jalilova and CS-019 student Rishad Akhundov have been USC members in the previous term and are looking forward to leading the USC term in 2021. To our deepest regret, in 2020 the first UFAZ Student Council ever on a par with the whole world confronted the lockdown as a consequence of COVID-19. The structure that was aimed to revamp the social life of UFAZ had to switch its primary direction and focus on issues and raised concerns concerning online education. Apart from continuing the process of delivering common student issues to the Education Department two times per semester, we are planning to aim for higher involvement of UFAZ students in the university’s social life, events, students clubs, etc. that are an indispensable part of a successful university.
+        ul.actions
+          li
+            button.button.primary.color2(id='vote',value='laman.jalilova@ufaz.az') Vote
+    // Copyright
+    .copyright
+      | &copy; USC-voting-platform. Design: 
+      a(href='https://html5up.net') HTML5 UP
+      | .
+// Scripts
+script(src='assets/js/jquery.min.js')
+script(src='assets/js/browser.min.js')
+script(src='assets/js/breakpoints.min.js')
+script(src='assets/js/main.js')

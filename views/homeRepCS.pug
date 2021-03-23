@@ -1,0 +1,58 @@
+doctype html
+//
+  Ethereal by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+head
+  title USC-voting-platform
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, user-scalable=no')
+  link(rel='stylesheet' href='assets/css/main.css')
+  noscript
+    link(rel='stylesheet' href='assets/css/noscript.css')
+
+header#navbar
+  h2 USC-Voting-platform
+  nav.links
+    ul
+      li
+        a(class='president',href='/homePre') President/VP
+      li
+        a(class='repr',href='/homeRep') Representatives
+  nav.main
+    ul
+      li
+        p &nbsp;&nbsp;!{Name} !{Surname}&nbsp;&nbsp;
+      li
+        a(id="logout",href='/api/logout') Logout &nbsp;&nbsp;
+// Page Wrapper
+#page-wrapper
+  // Wrapper
+  #wrapper
+  
+    // Panel (Banner)
+    section#start.panel.banner.right
+      .content.color1.span-3-75
+        h1.major
+          | Fidan
+          br
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Guliyeva 
+        h3 Representative &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CS-19
+        p
+          | Why should you vote me? I am ready to listen and work on problems you, students, face in UFAZ. I promise to be open-minded and considerate about the ideas you suggest. All you need is to offer, and I, as your representative, will do my best to realize your suggestion. My goal is to make your time at university more productive and fun. After all, there is a reason people say it is the best time of our lives. So, let me help you to make the most out of it! 
+        ul.actions
+          li
+            button.button.primary.color2(id='vote',value='fidan.guliyeva@ufaz.az') Vote
+      .image.filtered.span-1-75(data-position='25% 25%')
+        img(src='images/fidan.png' alt='')
+    // Copyright
+    .copyright
+      | &copy; USC-Voting-System. Design: 
+      a(href='https://html5up.net') HTML5 UP
+      | .
+// Scripts
+script(src='assets/js/jquery.min.js')
+script(src='assets/js/browser.min.js')
+script(src='assets/js/breakpoints.min.js')
+script(src='assets/js/main.js')

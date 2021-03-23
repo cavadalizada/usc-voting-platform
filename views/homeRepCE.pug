@@ -1,0 +1,77 @@
+doctype html
+//
+  Ethereal by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+head
+  title USC-voting-platform
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, user-scalable=no')
+  link(rel='stylesheet' href='assets/css/main.css')
+  noscript
+    link(rel='stylesheet' href='assets/css/noscript.css')
+
+header#navbar
+  h2 USC-Voting-platform
+  nav.links
+    ul
+      li
+        a(class='president',href='/homePre') President/VP
+      li
+        a(class='repr',href='/homeRep') Representatives
+  nav.main
+    ul
+      li
+        p &nbsp;&nbsp;!{Name} !{Surname}&nbsp;&nbsp;
+      li
+        a(id="logout",href='/api/logout') Logout &nbsp;&nbsp;
+// Page Wrapper
+#page-wrapper
+  // Wrapper
+  #wrapper
+  
+    // Panel (Banner)
+    section#start.panel.banner.right
+      .content.color1.span-3-75
+        h1.major
+          | Said
+          br
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Isgandarov
+        h3 Representative &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CE-18
+        p(id="smallerP")
+          | Being Chemical Engineering Faculty representative, I am planning to gather the students either online or hopefully, soon, in UFAZ Building in the big Conference Hall in order to pass Q&A(Questions and Answers) days once a week to listen to the minds of the students and become the connection between the students and the administration. In these meetings we will try to solve all the problems. Also, by my opinion, it will be very good to increase the activities of UFAZ Students, such as the clubs of the French-Azerbaijani University. With the great pleasure, I will give to every student the advices, how to create the best and interesting club with creative ideas . Talking about the problems with Exams and the materials, the students will approach to me and all the problems will be gathered in Image.jpegone mail and will be sent to the administration. My advice to all the students of UFAZ: NEVER GIVE UP!
+        ul.actions
+          li
+            button.button.primary.color2(id='vote',value='said.isgandarov@ufaz.az') Vote
+          li
+            a.button.primary.color1.circle.icon.solid.fa-angle-right(href='#first') Next
+      .image.filtered.span-1-75(data-position='25% 25%')
+        img(src='images/said.jpg' alt='')
+    // Panel (Spotlight)
+    section#first.panel.banner.right
+      .content.color2.span-3-75
+        h1.major
+          | Sama
+          br
+          | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Aghamammadova
+        h3 Representative &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CE-18
+        p(id='mediumP')
+          | Third year chemical engineering student at UFAZ and currently ongoing intern at Özgün Yapı Inşaat. Working as a university representative at Velocis Solutions and as a Local Committee Vice President of Marketing department at AIESEC in Azerbaijan. Extremely motivated to constantly develop my skills in engineering field and to grow professionally. On a par with that, I am eagerly looking forward to sharing my experience and knowledge with all chemical engineering students by this helpin them find chemical engineering related and non-related internships that we all are looking for.
+        ul.actions
+          li
+            button.button.primary.color2(id='vote2',value='sama.aghamammadova@ufaz.az') Vote
+          li
+            a.button.primary.color1.circle.icon.solid.fa-angle-left(href='#start') Next
+      .image.filtered.span-1-75(data-position='25% 25%')
+        img(src='images/sama.jpg' alt='')
+    // Copyright
+    .copyright
+      | &copy; USC-Voting-System. Design: 
+      a(href='https://html5up.net') HTML5 UP
+      | .
+// Scripts
+script(src='assets/js/jquery.min.js')
+script(src='assets/js/browser.min.js')
+script(src='assets/js/breakpoints.min.js')
+script(src='assets/js/main.js')
